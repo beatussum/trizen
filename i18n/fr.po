@@ -1,46 +1,46 @@
-# SOME DESCRIPTIVE TITLE.
+# French translation for the trizen package.
 # Copyright (C) YEAR Copyright (C) 2010-2019 Trizen <echo dHJpemVuQHByb3Rvbm1haWwuY29tCg== | base64 -d>.
 # This file is distributed under the same license as the trizen package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: trizen 1.58.13\n"
 "Report-Msgid-Bugs-To: Trizen <echo dHJpemVuQHByb3Rvbm1haWwuY29tCg== | base64 -d>\n"
 "POT-Creation-Date: 2019-07-06 22:26+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2019-07-06 23:08+0200\n"
+"Last-Translator: Mattéo Rossillol‑‑Laruelle <beatussum@protonmail.com>\n"
+"Language-Team: French (France)\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=2; plural=(n >= 2);\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #: trizen:99
 msgid "yes"
-msgstr ""
+msgstr "oui"
 
 #: trizen:100
 msgid "no"
-msgstr ""
+msgstr "non"
 
 #: trizen:190
 #, perl-brace-format
 msgid "Unable to create directory <<{config_dir}>>: {!{error}!}"
-msgstr ""
+msgstr "Incapable de créer le répertoire <<{config_dir}>> : {!{error}!}"
 
 #: trizen:303
 #, perl-brace-format
 msgid "{execname} configuration file"
-msgstr ""
+msgstr "fichier de configuration de {execname}"
 
 #: trizen:304
 #, perl-brace-format
 msgctxt "About the configuration file"
 msgid "Updated on {time}"
-msgstr ""
+msgstr "Mis à jour le {time}"
 
 #: trizen:312
 msgid "Show the date when the packages were last updated in AUR results."
@@ -68,19 +68,19 @@ msgstr ""
 
 #: trizen:324
 msgid "When `makepkg` fails to build a package, offer the option for trying again."
-msgstr ""
+msgstr "Quand `makepkg` échoue à construire un paquet, offrir la possibilité de réessayer."
 
 #: trizen:326
 msgid "Absolute path to the directory where to clone and build packages."
-msgstr ""
+msgstr "Chemin absolu vers le répertoire où sont clonés et construits les paquets."
 
 #: trizen:328
 msgid "Display the dependencies of a package in specific colors (green = installed; cyan = in repo; purple = in AUR)."
-msgstr ""
+msgstr "Afficher les dépendances d'un paquet dans des couleurs spécifiques (vert = installée ; cyan = dans les dépôts ; violet = dans AUR)."
 
 #: trizen:330
 msgid "Verbose mode."
-msgstr ""
+msgstr "Mode verbeux."
 
 #: trizen:332
 msgid "In search+install mode, show the indices of packages in reverse order."
@@ -88,15 +88,15 @@ msgstr ""
 
 #: trizen:334
 msgid "Show the search results in reverse order."
-msgstr ""
+msgstr "Inverser le sens des résultats de recherche."
 
 #: trizen:336
 msgid "Pass the `--force` flag to `pacman`."
-msgstr ""
+msgstr "Passer l'option `--force` à `pacman`."
 
 #: trizen:338
 msgid "Pass the `--depth int` flag to `git clone`. (0 means no limit)"
-msgstr ""
+msgstr "Passer l'option `--depth int` à `git clone`. (0 signifie sans limite)"
 
 #: trizen:340
 msgid "Use proxy settings defined in `env` (if any)."
@@ -108,11 +108,11 @@ msgstr ""
 
 #: trizen:344
 msgid "Seconds after which an HTTPS connection is aborted."
-msgstr ""
+msgstr "Secondes après lesquelles une connexion HTTPS est avortée."
 
 #: trizen:346
 msgid "The `makepkg` command that is used internally in building a package."
-msgstr ""
+msgstr "La commande `makepkg` qui est utilisée en interne lors de la construction d'un paquet."
 
 #: trizen:348
 msgid "Move built packages in the directory `movepkg_dir`."
@@ -251,12 +251,12 @@ msgstr ""
 #: trizen:466
 #, perl-brace-format
 msgid "Invalid config file: {!{error}!}"
-msgstr ""
+msgstr "Fichier de configuration invalide : {!{error}!}"
 
 #: trizen:474
 #, perl-brace-format
 msgid "Cannot open file <<{config_file}>> for write: {!{error}!}"
-msgstr ""
+msgstr "Impossible d'ouvrir <<{config_file}>> en écriture : {!{error}!}"
 
 #: trizen:480
 #, perl-brace-format
@@ -274,7 +274,7 @@ msgstr ""
 
 #: trizen:537 trizen:578 trizen:630
 msgid "Main options:"
-msgstr ""
+msgstr "Options principales :"
 
 #: trizen:539
 #, perl-brace-format
@@ -316,7 +316,7 @@ msgstr ""
 
 #: trizen:550 trizen:591
 msgid "Other options:"
-msgstr ""
+msgstr "Autres options :"
 
 #: trizen:552
 msgid "do not display any warnings"
@@ -340,7 +340,7 @@ msgstr ""
 
 #: trizen:557
 msgid "activate the debug/verbose mode"
-msgstr ""
+msgstr "activer le mode de débogage/verbeux"
 
 #: trizen:558
 msgid "print this message and exit"
@@ -348,11 +348,11 @@ msgstr ""
 
 #: trizen:559
 msgid "print version and exit"
-msgstr ""
+msgstr "imprimer la version et quitter"
 
 #: trizen:561
 msgid "See also:"
-msgstr ""
+msgstr "Voir aussi :"
 
 #: trizen:566
 #, perl-brace-format
@@ -362,16 +362,16 @@ msgstr ""
 #: trizen:568
 #, perl-brace-format
 msgid "Configuration file: {config_file}"
-msgstr ""
+msgstr "Fichier de configuration : {config_file}"
 
 #: trizen:575
 #, perl-brace-format
 msgid "{bold}usage:{reset} {execname} {-S --sync} [options] [package(s)]"
-msgstr ""
+msgstr "{bold}usage :{reset} {execname} {-S --sync} [options] [paquet(s)]"
 
 #: trizen:580
 msgid "search for packages"
-msgstr ""
+msgstr "rechercher des paquets"
 
 #: trizen:581
 msgid "show info for packages"
@@ -391,7 +391,7 @@ msgstr ""
 
 #: trizen:585
 msgid "upgrade installed packages"
-msgstr ""
+msgstr "mettre à jour les paquets installés"
 
 #: trizen:586
 msgid "refresh package databases (with: -u)"
@@ -444,7 +444,7 @@ msgstr ""
 
 #: trizen:602
 msgid "install packages as explicitly installed"
-msgstr ""
+msgstr "installer les paquets comme explicitement installé"
 
 #: trizen:603
 msgid "pass the `--force` argument to `pacman`"
@@ -468,7 +468,7 @@ msgstr ""
 
 #: trizen:608
 msgid "directory where to clone and build packages"
-msgstr ""
+msgstr "répertoire où cloner et construire les paquets"
 
 #: trizen:609
 msgid "editor command used to edit build files"
@@ -488,7 +488,7 @@ msgstr ""
 
 #: trizen:614 trizen:634
 msgid "Examples:"
-msgstr ""
+msgstr "Exemples :"
 
 #: trizen:616
 #, perl-brace-format
@@ -517,12 +517,12 @@ msgstr ""
 #: trizen:636
 #, perl-brace-format
 msgid "{bold}{execname} -G  <package>{reset}     # clones <package>"
-msgstr ""
+msgstr "{bold}{execname} -G  <paquet>{reset}     # cloner <paquet>"
 
 #: trizen:638
 #, perl-brace-format
 msgid "{bold}{execname} -Gd <package>{reset}     # clones <package> along with its AUR dependencies"
-msgstr ""
+msgstr "{bold}{execname} -Gd <paquet>{reset}     # cloner <paquet> parmi ses dépendances AUR"
 
 #: trizen:736
 #, perl-brace-format
@@ -532,7 +532,7 @@ msgstr ""
 #: trizen:801
 #, perl-brace-format
 msgid "Unable to create directory <<{clone_dir}>>: {!{error}!}"
-msgstr ""
+msgstr "Incapable de créer le répertoire <<{clone_dir}>> : {!{error}!}"
 
 #: trizen:921
 msgid "Unable to decode HTML content:"
@@ -550,23 +550,23 @@ msgstr ""
 
 #: trizen:1043 trizen:1417 trizen:1588
 msgid "Try again?"
-msgstr ""
+msgstr "Essayer encore ?"
 
 #. TRANSLATION: always greater than one
 #: trizen:1159
 #, perl-brace-format
 msgid "Found <<{resultcount}>> packages."
-msgstr ""
+msgstr "<<{resultcount}>> paquets trouvés."
 
 #: trizen:1165
 msgctxt "It is an instruction (you)"
 msgid "Select a package"
-msgstr ""
+msgstr "Sélectionnez un paquet"
 
 #: trizen:1167
 msgctxt "It is an instruction (you)"
 msgid "Select"
-msgstr ""
+msgstr "Sélectionnez"
 
 #: trizen:1194
 #, perl-brace-format
@@ -581,178 +581,178 @@ msgstr ""
 #: trizen:1226
 #, perl-brace-format
 msgid "Unable to chdir() to <<{path}>>: {!{error}!}"
-msgstr ""
+msgstr "Incapable de chdir() vers <<{path}>> : {!{error}!}"
 
 #: trizen:1240
 #, perl-brace-format
 msgid "Unable to chdir() to <<{dir_name}>>: {!{error}!}"
-msgstr ""
+msgstr "Incapable de chdir() vers <<{dir_name}>> : {!{error}!}"
 
 #: trizen:1296
 msgid "Repository"
-msgstr ""
+msgstr "Dépôt"
 
 #: trizen:1297
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #: trizen:1298
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #: trizen:1299
 msgid "Maintainer"
-msgstr ""
+msgstr "Mainteneur introuvable"
 
 #: trizen:1300
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: trizen:1301
 msgid "AUR URL"
-msgstr ""
+msgstr "AUR URL"
 
 #: trizen:1302
 msgid "License"
 msgid_plural "Licenses"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Licence"
+msgstr[1] "Licences"
 
 #: trizen:1303
 msgid "Vote"
 msgid_plural "Votes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Vote"
+msgstr[1] "Votes"
 
 #: trizen:1304
 msgid "Popularity"
-msgstr ""
+msgstr "Popularité"
 
 #: trizen:1305
 msgctxt "About the package"
 msgid "Installed"
-msgstr ""
+msgstr "Installé"
 
 #: trizen:1306
 msgctxt "About the package"
 msgid "Out of date"
-msgstr ""
+msgstr "Obsolète"
 
 #: trizen:1307
 msgid "Dependency"
 msgid_plural "Dependencies"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Dépendance"
+msgstr[1] "Dépendances"
 
 #: trizen:1308
 msgid "Building dependency"
 msgid_plural "Building dependencies"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Dépendance de construction"
+msgstr[1] "Dépendances de construction"
 
 #: trizen:1309
 msgid "Checking dependency"
 msgid_plural "Checking dependencies"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Dépendance de vérification"
+msgstr[1] "Dépendances de vérification"
 
 #: trizen:1310
 msgid "Optional dependency"
 msgid_plural "Optional dependencies"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Dépendance optionnelle"
+msgstr[1] "Dépendances optionnelles"
 
 #: trizen:1311
 msgid "Provides"
-msgstr ""
+msgstr "Fournit"
 
 #: trizen:1312
 msgid "Conflicts with"
-msgstr ""
+msgstr "En conflit avec"
 
 #: trizen:1313
 msgid "Replaces"
-msgstr ""
+msgstr "Remplace"
 
 #: trizen:1314
 msgid "Package base"
-msgstr ""
+msgstr "Base de paquet"
 
 #: trizen:1315
 msgid "Last update"
-msgstr ""
+msgstr "Dernière mise à jour"
 
 #: trizen:1316
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: trizen:1326
 msgctxt "About the version"
 msgid "Unknown"
-msgstr ""
+msgstr "Inconnue"
 
 #: trizen:1327
 msgctxt "About the maintainer"
 msgid "None"
-msgstr ""
+msgstr "Personne"
 
 #: trizen:1328
 msgctxt "About the URL"
 msgid "None"
-msgstr ""
+msgstr "Aucune"
 
 #: trizen:1330
 msgctxt "About the licenses"
 msgid "None"
-msgstr ""
+msgstr "Aucune"
 
 #: trizen:1333 trizen:1334
 msgid "Yes"
-msgstr ""
+msgstr "Oui"
 
 #: trizen:1333 trizen:1334
 msgid "No"
-msgstr ""
+msgstr "Non"
 
 #: trizen:1335 trizen:1336 trizen:1337 trizen:1338
 msgctxt "About the dependencies"
 msgid "None"
-msgstr ""
+msgstr "Aucune"
 
 #: trizen:1339
 msgctxt "About the features provided by the package"
 msgid "None"
-msgstr ""
+msgstr "Rien"
 
 #: trizen:1340
 msgctxt "About the packages in conflict with this one"
 msgid "None"
-msgstr ""
+msgstr "Rien"
 
 #: trizen:1341
 msgctxt "About the packages replaced by this one"
 msgid "None"
-msgstr ""
+msgstr "Rien"
 
 #: trizen:1361
 #, perl-brace-format
 msgid "Cannot access directory <<{dir}>>: {!{error}!}"
-msgstr ""
+msgstr "Impossible de supprimer le répertoire <<{dir}>> : {!{error}!}"
 
 #: trizen:1391
 #, perl-brace-format
 msgid "Unable to create {movepkg_dir}: {!{error}!}"
-msgstr ""
+msgstr "Incapable de créer le répertoire <<{movepkg_dir}>> : {!{error}!}"
 
 #: trizen:1402
 #, perl-brace-format
 msgid "Unable to move <<{tarball}>> into <<{movepkg_dir}>>: {!{error}!}"
-msgstr ""
+msgstr "Incapable de déplacer <<{tarball}>> dans <<{movepkg_dir}>> : {!{error}!}"
 
 #: trizen:1406
 #, perl-brace-format
 msgid "Moving <<{tarball}>> into <<{movepkg_dir}>>"
-msgstr ""
+msgstr "Déplacement de <<{tarball}>> dans <<{movepkg_dir}>>"
 
 #: trizen:1415
 #, perl-brace-format
@@ -762,41 +762,41 @@ msgstr ""
 #: trizen:1422
 #, perl-brace-format
 msgid "<<{tarball}>> has been successfully moved into <<{movepkg_dir}>>."
-msgstr ""
+msgstr "<<{tarball}>> a été déplacée avec succès dans <<{movepkg_dir}>>."
 
 #: trizen:1436
 #, perl-brace-format
 msgid "`makepkg --printsrcinfo` exited with code: {exit_code}"
-msgstr ""
+msgstr "`makepkg --printsrcinfo` s'est terminé avec le code : {exit_code}"
 
 #: trizen:1490
 #, perl-brace-format
 msgid "Content of{reset} <<{file}>>"
-msgstr ""
+msgstr "Contenu de{reset} <<{file}>>"
 
 #: trizen:1513
 #, perl-brace-format
 msgid "Unable to open <<{file}>> for reading: {!{error}!}"
-msgstr ""
+msgstr "Incapable d'ouvrir <<{file}>> en lecture : {!{error}!}"
 
 #: trizen:1553
 #, perl-brace-format
 msgid "Edit {file}?"
-msgstr ""
+msgstr "Editer {file} ?"
 
 #: trizen:1563
 #, perl-brace-format
 msgid "{editor} exited with code: {exit_code}"
-msgstr ""
+msgstr "{editor} s'est terminé avec le code : {exit_code}"
 
 #: trizen:1580
 #, perl-brace-format
 msgid "Unable to build <<{pkg}>> - makepkg exited with code: {exit_code}"
-msgstr ""
+msgstr "Incapable de construire <<{pkg}>> - makepkg sortie avec le code : {exit_code}"
 
 #: trizen:1594
 msgid "Exit now?"
-msgstr ""
+msgstr "Quitter maintenant ?"
 
 #: trizen:1688
 #, perl-brace-format
@@ -806,26 +806,26 @@ msgstr ""
 #: trizen:1705
 msgctxt "It is an instruction (you)"
 msgid "Select packages to install"
-msgstr ""
+msgstr "Sélectionnez des paquets à installer"
 
 #: trizen:1706
 msgctxt "infinitive"
 msgid "Install"
-msgstr ""
+msgstr "Installer"
 
 #: trizen:1818 trizen:2959 trizen:2992 trizen:3070 trizen:3117
 #, perl-brace-format
 msgid "<<{pkg}>> not found."
-msgstr ""
+msgstr "<<{pkg}>> introuvable."
 
 #: trizen:1838 trizen:1854
 #, perl-brace-format
 msgid "<<{pkg}>> is installed and up-to-date -- skipping"
-msgstr ""
+msgstr "<<{pkg}>> est installé et à jour -- passe"
 
 #: trizen:1848
 msgid "<<pkg>> is a VCS package -- updating"
-msgstr ""
+msgstr "<<pkg>> est un paquet en développement -- mise à jour"
 
 #: trizen:1895
 #, perl-brace-format
@@ -835,7 +835,7 @@ msgstr ""
 #: trizen:1985
 #, perl-brace-format
 msgid "Dependency not found: <<{name}>>"
-msgstr ""
+msgstr "Dépendance introuvable : <<{name}>>"
 
 #: trizen:2010
 #, perl-brace-format
@@ -845,49 +845,49 @@ msgstr ""
 #: trizen:2016
 #, perl-brace-format
 msgid "Trizen's cache directory: {clone_dir}"
-msgstr ""
+msgstr "Répertoire du cache de Trizen : {clone_dir}"
 
 #: trizen:2019
 msgid "Do you want to remove trizen's cache?"
-msgstr ""
+msgstr "Voulez-vous nettoyer le cache de trizen ?"
 
 #: trizen:2026
 #, perl-brace-format
 msgid "Removing the content of <<{clone_dir}>>..."
-msgstr ""
+msgstr "Suppression du contenu de <<{clone_dir}>>..."
 
 #: trizen:2039
 #, perl-brace-format
 msgid "Remove the content of {dir}?"
-msgstr ""
+msgstr "Supprimer le contenu de {dir} ?"
 
 #: trizen:2045
 #, perl-brace-format
 msgid "Cannot remove directory <<{dir}>>: {!{error}!}"
-msgstr ""
+msgstr "Impossible de supprimer le répertoire <<{dir}>> : {!{error}!}"
 
 #: trizen:2051
 msgid "Done!"
-msgstr ""
+msgstr "Fait !"
 
 #: trizen:2100 trizen:2870
 msgctxt "About the package"
 msgid "installed"
-msgstr ""
+msgstr "installé"
 
 #: trizen:2140
 msgctxt "About the package"
 msgid "out-of-date"
-msgstr ""
+msgstr "obsolète"
 
 #: trizen:2142
 msgctxt "About the package"
 msgid "unmaintained"
-msgstr ""
+msgstr "orphelin"
 
 #: trizen:2152
 msgid "No description available..."
-msgstr ""
+msgstr "Aucune description disponible..."
 
 #: trizen:2227
 msgid "Unable to parse pacman result:"
@@ -895,36 +895,36 @@ msgstr ""
 
 #: trizen:2289
 msgid "No packages found..."
-msgstr ""
+msgstr "Aucun paquet trouvé..."
 
 #: trizen:2324
 msgid "Select packages to install"
-msgstr ""
+msgstr "Sélectionnez des paquets à installer"
 
 #: trizen:2365
 #, perl-brace-format
 msgid "<<{desc_file}>> is not a file: {!{error}!}"
-msgstr ""
+msgstr "<<{desc_file}>> n'est pas un fichier : {!{error}!}"
 
 #: trizen:2371
 #, perl-brace-format
 msgid "Unable to open <<{desc_file}>> for reading: {!{error}!}"
-msgstr ""
+msgstr "Incapable d'ouvrir <<{desc_file}>> en lecture : {!{error}!}"
 
 #: trizen:2505
 #, perl-brace-format
 msgid "<<{pkgname}>> checking GitHub <<{repo}>> for updates..."
-msgstr ""
+msgstr "<<{pkgname}>> vérification des mises à jours pour le dépôt GitHub <<{repo}>>..."
 
 #: trizen:2525
 #, perl-brace-format
 msgid "<<{pkgname}>> checking GitLab <<{repo}>> for updates..."
-msgstr ""
+msgstr "<<{pkgname}>> vérification des mises à jours pour le dépôt GitLab <<{repo}>>..."
 
 #: trizen:2546
 #, perl-brace-format
 msgid "<<{pkgname}>> checking <<{source_url}>> for updates..."
-msgstr ""
+msgstr "<<{pkgname}>> vérification des mises à jours pour le dépôt <<{{source_url}}>>..."
 
 #: trizen:2609
 msgid "Unable to get info for AUR packages..."
@@ -933,12 +933,12 @@ msgstr ""
 #: trizen:2633
 #, perl-brace-format
 msgid "<<{pkgname}>> has been flagged {!out-of-date!}!"
-msgstr ""
+msgstr "<<{pkgname}>> a été signalé comme {!obsolète!} !"
 
 #: trizen:2637
 #, perl-brace-format
 msgid "<<{pkgname}>> is {!unmaintained!}!"
-msgstr ""
+msgstr "<<{pkgname}>> est {!orphelin!} !"
 
 #: trizen:2646
 #, perl-brace-format
@@ -948,7 +948,7 @@ msgstr ""
 #: trizen:2649
 msgctxt "About the version"
 msgid "latest"
-msgstr ""
+msgstr "à jour"
 
 #: trizen:2698
 msgid "<<$pkgname>> was {!not found!} in AUR -- skipping"
@@ -956,38 +956,38 @@ msgstr ""
 
 #: trizen:2775
 msgid "No AUR updates found..."
-msgstr ""
+msgstr "Aucune mise à jour AUR trouvée..."
 
 #: trizen:2782
 msgid "Select packages for upgrade (<ENTER> for all)"
-msgstr ""
+msgstr "Sélectionnez les paquets à mettre à jour (<ENTRÉE> pour tout)"
 
 #: trizen:2795
 #, perl-brace-format
 msgid "<<{pkgname}>> has {!NOT!} been upgraded!"
-msgstr ""
+msgstr "<<{pkgname}>> n'a {!PAS!} été mis à jour !"
 
 #: trizen:2805
 #, perl-brace-format
 msgid "Unable to open directory <<{pacman_local_dir}>>: {!{error}!}"
-msgstr ""
+msgstr "Incapable d'ouvrir le répertoire <<{pacman_local_dir}>> : {!{error}!}"
 
 #: trizen:2866
 msgctxt "About the package"
 msgid "built"
-msgstr ""
+msgstr "construit"
 
 #: trizen:2879
 msgid "Total installed packages:"
-msgstr ""
+msgstr "Total des paquets installés :"
 
 #: trizen:2880
 msgid "Explicitly installed packages:"
-msgstr ""
+msgstr "Paquets explicitement installés :"
 
 #: trizen:2881
 msgid "Asdep installed packages:"
-msgstr ""
+msgstr "Paquets installés comme dépendances :"
 
 #: trizen:2882
 msgid "Theoretical space used by packages:"
@@ -1011,15 +1011,15 @@ msgstr ""
 
 #: trizen:2902
 msgid "Unneeded packages:"
-msgstr ""
+msgstr "Paquets inutiles :"
 
 #: trizen:2905
 msgid "No unneeded packages found..."
-msgstr ""
+msgstr "Aucun paquet inutile trouvé..."
 
 #: trizen:2973
 msgid "Maintainer not found:"
-msgstr ""
+msgstr "Mainteneur introuvable :"
 
 #: trizen:2999
 #, perl-brace-format
@@ -1029,12 +1029,12 @@ msgstr ""
 #: trizen:3006
 #, perl-brace-format
 msgid "PKGBUILD of <<{pkg}>>"
-msgstr ""
+msgstr "PKGBUILD de <<{pkg}>>"
 
 #: trizen:3076
 msgid "Package:"
-msgstr ""
+msgstr "Paquet :"
 
 #: trizen:3152 trizen:3164
 msgid "Found tarball:"
-msgstr ""
+msgstr "Archive trouvée :"

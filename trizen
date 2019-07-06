@@ -59,6 +59,7 @@ use Term::ANSIColor qw(:constants);
 use File::Path qw(make_path rmtree);
 use File::Spec::Functions qw(catdir catfile tmpdir curdir rel2abs);
 
+use Locale::Messages qw(bind_textdomain_filter turn_utf_8_on bind_textdomain_codeset);
 use Locale::TextDomain qw(trizen);
 use POSIX;     # Needed for setlocale()
 
@@ -91,6 +92,8 @@ if (-x '/usr/bin/pacconf') {
 # UTF-8 output
 binmode(STDOUT, ':utf8');
 binmode(STDERR, ':utf8');
+bind_textdomain_filter($execname, \&turn_utf_8_on);
+bind_textdomain_codeset($execname, 'utf-8');
 
 # Prefer HTTPS v3
 local $ENV{HTTPS_VERSION} = 3;
@@ -1155,6 +1158,7 @@ sub info_for_package ($pkgname) {
     $info->{resultcount} > 0 or return;
 
     if ($info->{resultcount} > 1) {
+        # TRANSLATION: always greater than one
         msg(':: ' . __x('Found <<{resultcount}>> packages.', resultcount => $info->{resultcount}));
         print "\n";
         my @packages = map { $_->{Name} } @{$info->{results}};
@@ -1702,7 +1706,7 @@ sub install_built_package ($pkg, @args) {
         my @reply = $term->get_reply(
                                      print_me => "\n$c{bold}=>> " . __p('It is an instruction (you)',
                                                                         'Select packages to install') . $c{reset},
-                                     prompt   => $c{bold} . __p('It is an instruction (you)', 'Install') . $c{reset},
+                                     prompt   => $c{bold} . __p('infinitive', 'Install') . $c{reset},
                                      choices  => [sort keys %packages],
                                      default  => [@selected],
                                      multi    => 1,

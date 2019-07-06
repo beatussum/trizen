@@ -16,7 +16,7 @@ COMP_FISHDIR ?= $(DESTDIR)$(PREFIX)/share/fish/vendor_completions.d
 COMP_ZSHDIR  ?= $(DESTDIR)$(PREFIX)/share/zsh/site-functions
 
 COMP ?= bash.completion fish.completion zsh.completion
-PO   ?=
+PO   ?= i18n/fr.po
 
 INSTALL_EXE  ?= install -D --mode=755
 INSTALL_DATA ?= install -D --mode=644
